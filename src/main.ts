@@ -4,6 +4,7 @@ import { I18n } from './config/language'
 import { createPinia } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import './style.css'
+import 'tdesign-vue-next/es/style/index.css';
 
 const app = createApp(App)
 const pinia = createPinia()
